@@ -4,7 +4,7 @@ A Ez Java Class for protect your client cannot using PCL2 Launcher and Destroy F
 # how to use
 ~~~java
 import Anything.AntiPCL;
-AntiPCL.fullCheck(Minecraft.getMinecraft().mcDataDir,false,false);
+AntiPCL.isUsingPCL(Minecraft.getMinecraft().mcDataDir,false,false);
 ~~~
 If you want Delete The PCL user's files, You can enable frist Boolean value
 
